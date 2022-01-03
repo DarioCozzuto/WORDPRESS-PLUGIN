@@ -56,6 +56,7 @@ function bcc_admin_notice__success() {
     </style> -->
     <?php
 }
+// add_action( 'admin_notices', 'bcc_admin_notice__success' );
 
 function bcc_create_menu_page() { 
     add_menu_page('Currency Tool', 'Currency Tool', 'administrator', 'currency-bcc', 'bcc_menu_page_display', ''); 
